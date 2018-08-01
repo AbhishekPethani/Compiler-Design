@@ -14,7 +14,7 @@ character [a-zA-Z]
 int main()
 {
      yyin = fopen("input.txt", "r");
-	 yylex();
+     yylex();
      printf("Number of Lines are: %d\n", line);
      printf("Number of Characters are: %d\n", character);
      printf("Number of Words are: %d\n", word);
