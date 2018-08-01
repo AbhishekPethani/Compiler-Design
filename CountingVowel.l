@@ -10,7 +10,7 @@
 int main()
 {
      yyin = fopen("input.txt", "r");
-	 yylex();
+     yylex();
      printf("Number of vowel are: %d\n", vowel);
      printf("Number of Characters are: %d\n", consonants);
 	 return 0;
